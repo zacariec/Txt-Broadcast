@@ -6,9 +6,9 @@ Clone and CD into dir & run.
 
 Prepares all node_modules.<br>
 
-### Don't forget to change Author & App name in Package.json.
+### `Don't forget to change Author & App name in Package.json.`
 
-### You need to have an account with https://smsbroadcast.com.au
+### `You need to have an account with https://smsbroadcast.com.au`
 to be able to use their API you need to sign up and buy credits.<br>
 This app was made for my current workplace. I have stripped back all personal details and left it<br>
 with the bare-minimum.
@@ -18,7 +18,7 @@ with the bare-minimum.
 Runs the app in Dev mode, with live reload/changes.
 
 
-### Deployment
+## Deployment
 
 To deploy you need to run these commands<br>
 
