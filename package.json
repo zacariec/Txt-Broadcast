@@ -1,0 +1,64 @@
+{
+  "name": "Quotes",
+  "autho": "Zacarie A. Carr",
+  "version": "1.1.0",
+  "homepage": "./",
+  "build": {
+    "appId": "com.sms-app.electron-cra",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "custom-electron-titlebar": "^3.0.10",
+    "electron-is-dev": "^1.1.0",
+    "electron-updater": "^4.0.14",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1",
+    "wait-on": "^3.2.0"
+  },
+  "main": "public/electron.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "concurrently \"set BROWSER=none && npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron-pack": "build main=build/electron.js",
+    "preelectron-pack": "npm build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^5.0.2",
+    "electron-builder": "^20.41.0",
+    "react-scripts": "0.8.5"
+  }
+}
