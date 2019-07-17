@@ -13,6 +13,15 @@ to be able to use their API you need to sign up and buy credits.<br>
 This app was made for my current workplace. I have stripped back all personal details and left it<br>
 with the bare-minimum.
 
+## Getting Started
+
+Change let user = '' && let pass = '' in QuotesComp.js, SendTxtComp.js && Balance.js to your own<br>
+username and password. <br>
+<br>
+Edit form states & let message = '' to whatever you please. These are currently setup <br>
+to use templates from the form to make messages for mass broadcasting.<br>
+
+
 ### `npm run electron-dev`
 
 Runs the app in Dev mode, with live reload/changes.
