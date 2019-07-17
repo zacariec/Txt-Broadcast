@@ -15,7 +15,7 @@ with the bare-minimum.
 
 ## Getting Started
 
-Change `let user = ''` && `let pass = ''` in ### QuotesComp.js,  ### SendTxtComp.js && ### Balance.js to your own<br>
+Change `let user = ''` && `let pass = ''` in QuotesComp.js, SendTxtComp.js && Balance.js to your own<br>
 username and password. <br>
 <br>
 Edit `form state` & `let message = ''` to whatever you please. These are currently setup <br>
