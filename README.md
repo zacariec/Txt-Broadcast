@@ -1,4 +1,5 @@
 ## Starting off.
+made with love from my [boiler](https://github.com/GPudgima/Electron-React)
 
 Clone and CD into dir & run.
 
@@ -8,7 +9,7 @@ Prepares all node_modules.<br>
 
 ### `Don't forget to change Author & App name in Package.json.`
 
-### `You need to have an account with https://smsbroadcast.com.au`
+### `You need to have an account with [smsbroadcast](https://smsbroadcast.com.au)`
 to be able to use their API you need to sign up and buy credits.<br>
 This app was made for my current workplace. I have stripped back all personal details and left it<br>
 with the bare-minimum.
