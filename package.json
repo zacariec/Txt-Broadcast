@@ -15,7 +15,7 @@
   },
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "concurrently": "^4.1.0",
     "custom-electron-titlebar": "^3.0.10",
     "electron-is-dev": "^1.1.0",
